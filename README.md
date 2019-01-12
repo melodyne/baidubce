@@ -28,7 +28,7 @@ Baidubce百度云DOC，YII2组件封装
 
 >bce-doc  中是对DOC的授权签名验证的封装，包括http请求
 
->Doc.php 是针对Yii2的封装的DOC组件
+>Doc.php 是针对Yii2的封装的DOC组件，你要调用的东西就在这里面，注释很详细的一看就懂。
 
 >配置 我这里用的Yii2 你可以根据自己的框加来替换成自己的配置读取
 
