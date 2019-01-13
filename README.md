@@ -22,8 +22,8 @@ Baidubce百度云DOC，YII2组件封装
 ### 使用说明
 由于时间关系，代码没有做dome，核心代码都都封装好，稍微研究下直接拿来用即可，集成到自己项目中要根据自己的框架适当调整，注意自己引入文件的路径。
 #### 安装Guzzle
+使用composer安装 [官方文档](https://guzzle-cn.readthedocs.io/zh_CN/latest/overview.html#installation)
 ```
-//使用composer安装
 composer require guzzlehttp/guzzle:~6.0
 ```
 #### 配置
