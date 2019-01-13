@@ -21,6 +21,11 @@ Baidubce百度云DOC，YII2组件封装
 
 ### 使用说明
 由于时间关系，代码没有做dome，核心代码都都封装好，稍微研究下直接拿来用即可，集成到自己项目中要根据自己的框架适当调整，注意自己引入文件的路径。
+#### 安装Guzzle
+```
+//使用composer安装
+composer require guzzlehttp/guzzle:~6.0
+```
 #### 配置
 `baidubce/bce-php-sdk-0.9.2/SampleConf.php`文件中配置自己的ak和sk
 #### 调用
@@ -34,13 +39,11 @@ Baidubce百度云DOC，YII2组件封装
 ### 目录文件说明
 >bce_php_sdk-0.9.2  是直接从百度云下载的通用sdk，因为文档源文件是上传到BOS，注意这里绕到了其它服务上了，但是这一步真的不能少。
 
->bce-doc  中是对DOC的授权签名验证的封装，包括http请求
+>bce-doc  中是对DOC的授权签名验证的封装，包括http请求，核心类BceApi，这个文件的类注意命名空间，改成自己的命名空间。
 
 >Doc.php 是针对Yii2的封装的DOC组件，你要调用的东西就在这里面，注释很详细的一看就懂。
 
 >配置 我这里用的Yii2 你可以根据自己的框加来替换成自己的配置读取
-
-> 网络请求是用的GuzzleHttp，用composer require这个这个类库就可以了，网上有很多关于这个类库的资料。
 
 ### 关于
 有什么疑问可以加我QQ：295124540和我交流。
