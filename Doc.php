@@ -88,8 +88,8 @@ class Doc extends Component
             throw new \Exception('文件不存在！');
         }
 
-        require_once dirname(__DIR__).'/extend/baidubce/bce-php-sdk-0.9.2/BaiduBce.phar';
-        require_once dirname(__DIR__).'/extend/baidubce/bce-php-sdk-0.9.2/SampleConf.php';
+        require_once __DIR__.'/bce-php-sdk-0.9.2/BaiduBce.phar';
+        require_once __DIR__.'/bce-php-sdk-0.9.2/SampleConf.php';
 
         //调用配置文件中的参数
         //global $BOS_TEST_CONFIG;
