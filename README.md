@@ -21,6 +21,9 @@ Baidubce百度云DOC，YII2组件封装
 
 ### 使用说明
 由于时间关系，代码没有做dome，核心代码都都封装好，稍微研究下直接拿来用即可，集成到自己项目中要根据自己的框架适当调整，注意自己引入文件的路径。
+#### 配置
+`baidubce/bce-php-sdk-0.9.2/SampleConf.php`文件中配置自己的ak和sk
+#### 调用
 ```php
  //调用上传文档方法，也可以自己重构此方法来传更多参数
  $doc = Doc::instance()->upload($file,$title);
