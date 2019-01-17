@@ -43,6 +43,8 @@ composer require guzzlehttp/guzzle:~6.0
 
 >`Doc.php` 是针对Yii2的封装的DOC组件，你要调用的东西就在这里面，注释很详细的一看就懂。
 
+### web直传
+>直传的dome在`index.php',踩了很多坑，注释里有，如果有什么不明白的，请给博主github一个星然后加我QQ和我交流！
 
 ### 关于
 有什么疑问可以加我QQ：295124540和我交流。
