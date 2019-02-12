@@ -47,7 +47,7 @@ composer require guzzlehttp/guzzle:~6.0
 >直传的dome在`index.php',踩了很多坑，注释里有，如果有什么不明白的，请给博主github一个星然后加我QQ和我交流！
 
 ### 关于
-有什么疑问可以进入QQ群和群主讨论：
-<a target="_blank" href="https://jq.qq.com/?_wv=1027&amp;k=4945coR"><img border="0" src="http://yunyii.oss-cn-beijing.aliyuncs.com/public/join_qq.jpg" alt="云宿直播技术开发" title="云宿直播技术开发">
-</a>
+有什么疑问可以<a target="_blank" href="https://jq.qq.com/?_wv=1027&amp;k=4945coR"><img border="0" src="http://yunyii.oss-cn-beijing.aliyuncs.com/public/join_qq.jpg" alt="云宿直播技术开发" title="云宿直播技术开发">
+</a>和群主讨论：
+
 
